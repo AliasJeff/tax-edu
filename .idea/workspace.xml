@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3a86be4-9054-4274-bd79-7a43b56268ed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admin/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/sms/SmsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/sms/SmsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-education-gateway/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-education-gateway/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-education-service/roncoo-education-service-course/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-education-service/roncoo-education-service-course/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-education-service/roncoo-education-service-system/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-education-service/roncoo-education-service-system/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-education-service/roncoo-education-service-user/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-education-service/roncoo-education-service-user/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-education-service/roncoo-education-service-user/src/test/java/com/roncoo/education/user/service/test/DruidUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-education-service/roncoo-education-service-user/src/test/java/com/roncoo/education/user/service/test/DruidUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-generator/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-generator/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-job/distribution/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-job/distribution/conf/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-job/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/roncoo-job/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/roncoo-job/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/web/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/admin" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,21 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/develop/projects/tax-edu/api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/develop/projects/tax-edu/api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,11 +55,16 @@
       <option name="presentableId" value="Default" />
       <updated>1697693369610</updated>
       <workItem from="1697693371779" duration="13000" />
-      <workItem from="1697693402860" duration="360000" />
+      <workItem from="1697693402860" duration="1012000" />
+      <workItem from="1697694473344" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

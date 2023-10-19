@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-video/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-video/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-feign/roncoo-education-feign-course/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-feign/roncoo-education-feign-course/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-feign/roncoo-education-feign-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-feign/roncoo-education-feign-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-feign/roncoo-education-feign-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-feign/roncoo-education-feign-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-service/roncoo-education-service-course/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-service/roncoo-education-service-course/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-service/roncoo-education-service-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-service/roncoo-education-service-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-service/roncoo-education-service-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-service/roncoo-education-service-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/roncoo-education-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

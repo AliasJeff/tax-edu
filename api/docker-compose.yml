@@ -1,0 +1,65 @@
+version: "3.0"
+services:
+  gateway:
+    build:
+      context: ./roncoo-education-gateway
+      args:
+        JAVA_OPTS: '-Xmn256M -Xmx256M'
+        RUN_ARGS: '--spring.profiles.active=demo --spring.cloud.nacos.server-addr=localhost:8848'
+    image: roncoo-education-gateway
+    container_name: gateway
+    restart: always
+    volumes:
+      - /home/roncoo/logs/gateway:/root/logs/gateway
+    networks:
+      - education
+    ports:
+      - "8180:8180"
+  service-system:
+    build:
+      context: ./roncoo-education-service/roncoo-education-service-system
+      args:
+        JAVA_OPTS: '-Xmn256M -Xmx256M'
+        RUN_ARGS: '--spring.profiles.active=demo --spring.cloud.nacos.server-addr=localhost:8848'
+    image: roncoo-education-service-system
+    container_name: system
+    restart: always
+    volumes:
+      - /home/roncoo/logs/system:/root/logs/system
+    networks:
+      - education
+    ports:
+      - "8184:8184"
+  service-user:
+    build:
+      context: ./roncoo-education-service/roncoo-education-service-user
+      args:
+        JAVA_OPTS: '-Xmn256M -Xmx256M'
+        RUN_ARGS: '--spring.profiles.active=demo --spring.cloud.nacos.server-addr=localhost:8848'
+    image: roncoo-education-service-user
+    container_name: user
+    restart: always
+    volumes:
+      - /home/roncoo/logs/user:/root/logs/user
+    networks:
+      - education
+    ports:
+      - "8186:8186"
+  service-course:
+    build:
+      context: ./roncoo-education-service/roncoo-education-service-course
+      args:
+        JAVA_OPTS: '-Xmn256M -Xmx256M'
+        RUN_ARGS: '--spring.profiles.active=demo --spring.cloud.nacos.server-addr=localhost:8848'
+    image: roncoo-education-service-course
+    container_name: course
+    restart: always
+    volumes:
+      - /home/roncoo/logs/course:/root/logs/course
+    networks:
+      - education
+    ports:
+      - "8188:8188"
+networks:
+  education:
+    driver: host

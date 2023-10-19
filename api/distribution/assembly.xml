@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2016-现在 LingKe Ltd.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<assembly>
+    <id>${project.version}</id>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <formats>
+        <!--<format>dir</format>-->
+        <!--<format>zip</format>-->
+        <format>tar.gz</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>${project.parent.basedir}/distribution/bin</directory>
+            <outputDirectory>bin</outputDirectory>
+            <directoryMode>0755</directoryMode>
+            <fileMode>0755</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>${project.parent.basedir}/distribution/conf</directory>
+            <outputDirectory>conf</outputDirectory>
+            <directoryMode>0755</directoryMode>
+            <fileMode>0755</fileMode>
+        </fileSet>
+    </fileSets>
+    <files>
+        <file>
+            <source>${project.parent.basedir}/roncoo-education-gateway/target/gateway.jar</source>
+            <outputDirectory>target</outputDirectory>
+        </file>
+        <file>
+            <source>${project.parent.basedir}/roncoo-education-service/roncoo-education-service-course/target/course.jar</source>
+            <outputDirectory>target</outputDirectory>
+        </file>
+        <file>
+            <source>${project.parent.basedir}/roncoo-education-service/roncoo-education-service-system/target/system.jar</source>
+            <outputDirectory>target</outputDirectory>
+        </file>
+        <file>
+            <source>${project.parent.basedir}/roncoo-education-service/roncoo-education-service-user/target/user.jar</source>
+            <outputDirectory>target</outputDirectory>
+        </file>
+    </files>
+</assembly>

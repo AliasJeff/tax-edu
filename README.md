@@ -85,16 +85,12 @@
    nacos.core.auth.username=nacos
    nacos.core.auth.password=nacos
    
-   ### worked when nacos.core.auth.system.type=nacos
-   ### The token expiration in seconds:
-   nacos.core.auth.plugin.nacos.token.cache.enable=false
-   nacos.core.auth.plugin.nacos.token.expire.seconds=18000
    ### The default token (Base64 String):
    nacos.core.auth.plugin.nacos.token.secret.key=${NACOS_AUTH_TOKEN:SecretKey01234567890123456789012345345678999987654901234567890123456789}
    ```
-
    
-
+   
+   
 2. 改为单机启动（不需要集群）：
 
    nacos/bin/startup.cmd 

@@ -32,7 +32,8 @@ public final class AlipayUtil {
     /**
      * 支付宝请求地址
      */
-    private static final String REQUEST_URL = "https://openapi.alipay.com/gateway.do";
+//    private static final String REQUEST_URL = "https://openapi.alipay.com/gateway.do";
+    private static final String REQUEST_URL = "https://openapi-sandbox.dl.alipaydev.com/gateway.do";
 
     /**
      * alipay.trade.precreate(统一收单线下交易预创建)
